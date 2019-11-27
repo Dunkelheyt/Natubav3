@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 class DisplayProducto extends React.Component {
   render() {
