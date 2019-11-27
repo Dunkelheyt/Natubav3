@@ -1,4 +1,6 @@
 import React from "react";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
 
 class DisplayProducto extends React.Component {
   render() {
@@ -8,11 +10,13 @@ class DisplayProducto extends React.Component {
       <div>
         <h1 className="text-center">{info.productoNombre}</h1>
         <div className="container">
-          <img
-            className="image rounded mt-2 mb-2"
-            src={info.img}
-            alt="Testing"
-          />
+          <Carousel>
+            {info.imgC.map((data, index) => (
+              <div>
+                <img src={data} alt="carrousel" />
+              </div>
+            ))}
+          </Carousel>
           <div className="row">
             <div className="col-sm-12 col-md-6 col-lg-6 rightBorder">
               <p>{info.desc}</p>
