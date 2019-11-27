@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import { Route } from "react-router-dom";
 import Main from "./Main";
-import Conocenos from "./Conocenos";
-import Productos from "./Productos";
-import ProductosChips from "./ProductosChips";
-import ProductosChipsPaginaDesc from "./ProductosChipsPaginaDesc";
-import ProductosMix from "./ProductosMix";
+import Conocenos from "./components/social/Conocenos";
+import Productos from "./components/productPages/Productos";
+import ProductosChips from "./components/productPages/ProductosChips";
+import ProductosChipsPaginaDesc from "./components/productPages/ProductosChipsPaginaDesc";
+import ProductosMix from "./components/productPages/ProductosMix";
 import HeaderContainer from "./components/header/HeaderContainer";
-import ProductosMixPaginaDesc from "./ProductosMixPaginaDesc";
+import ProductosMixPaginaDesc from "./components/productPages/ProductosMixPaginaDesc";
 
 class App extends Component {
   render() {

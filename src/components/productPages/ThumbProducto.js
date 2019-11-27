@@ -10,11 +10,11 @@ class ThumbProducto extends React.Component {
         <div className="container">
           <div className="row">
             <div className="col-lg-4 col-12 col-sm-12">
-              <img className="img-fluid rounded" src={info.img} alt="Testing" />
+              <img className="image rounded" src={info.img} alt="Testing" />
             </div>
             <div className="col-lg-8 col-md-12 col-sm-12">
               <Link to={"/productos/" + info.tipoProducto + "/" + info.pageId}>
-                <h1> {info.productoNombre}</h1>
+                <h1 className="text-center"> {info.productoNombre}</h1>
                 <p>{info.desc}</p>
               </Link>
             </div>

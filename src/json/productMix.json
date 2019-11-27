@@ -6,7 +6,13 @@
     "tipoProducto2": "dulce",
     "productoNombre": "Arándano",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTHR1ep3Pmrm20XUwiPt5Hs_BiUGl-VmaRZn_xHKs2kn-dHBRLf"
+    "desc2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTHR1ep3Pmrm20XUwiPt5Hs_BiUGl-VmaRZn_xHKs2kn-dHBRLf",
+    "nutriF": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 1.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 2.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 3."
+    ]
   },
   {
     "id": "2",
@@ -15,7 +21,13 @@
     "tipoProducto2": "dulce",
     "productoNombre": "Piña",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTHR1ep3Pmrm20XUwiPt5Hs_BiUGl-VmaRZn_xHKs2kn-dHBRLf"
+    "desc2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTHR1ep3Pmrm20XUwiPt5Hs_BiUGl-VmaRZn_xHKs2kn-dHBRLf",
+    "nutriF": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 1.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 2.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 3."
+    ]
   },
   {
     "id": "3",
@@ -24,7 +36,13 @@
     "tipoProducto2": "dulce",
     "productoNombre": "Manzana-Kiwi",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTHR1ep3Pmrm20XUwiPt5Hs_BiUGl-VmaRZn_xHKs2kn-dHBRLf"
+    "desc2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTHR1ep3Pmrm20XUwiPt5Hs_BiUGl-VmaRZn_xHKs2kn-dHBRLf",
+    "nutriF": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 1.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 2.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 3."
+    ]
   },
   {
     "id": "4",
@@ -33,7 +51,13 @@
     "tipoProducto2": "dulce",
     "productoNombre": "Arándano enchilado",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTHR1ep3Pmrm20XUwiPt5Hs_BiUGl-VmaRZn_xHKs2kn-dHBRLf"
+    "desc2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTHR1ep3Pmrm20XUwiPt5Hs_BiUGl-VmaRZn_xHKs2kn-dHBRLf",
+    "nutriF": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 1.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 2.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 3."
+    ]
   },
   {
     "id": "5",
@@ -42,7 +66,13 @@
     "tipoProducto2": "con chile",
     "productoNombre": "Arándano con chile",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTHR1ep3Pmrm20XUwiPt5Hs_BiUGl-VmaRZn_xHKs2kn-dHBRLf"
+    "desc2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTHR1ep3Pmrm20XUwiPt5Hs_BiUGl-VmaRZn_xHKs2kn-dHBRLf",
+    "nutriF": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 1.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 2.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 3."
+    ]
   },
   {
     "id": "6",
@@ -51,7 +81,13 @@
     "tipoProducto2": "con chile",
     "productoNombre": "Nopal con chile",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTHR1ep3Pmrm20XUwiPt5Hs_BiUGl-VmaRZn_xHKs2kn-dHBRLf"
+    "desc2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTHR1ep3Pmrm20XUwiPt5Hs_BiUGl-VmaRZn_xHKs2kn-dHBRLf",
+    "nutriF": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 1.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 2.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 3."
+    ]
   },
   {
     "id": "7",
@@ -60,6 +96,12 @@
     "tipoProducto2": "dulce",
     "productoNombre": "Tiritas de Mango",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTHR1ep3Pmrm20XUwiPt5Hs_BiUGl-VmaRZn_xHKs2kn-dHBRLf"
+    "desc2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTHR1ep3Pmrm20XUwiPt5Hs_BiUGl-VmaRZn_xHKs2kn-dHBRLf",
+    "nutriF": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 1.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 2.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 3."
+    ]
   }
 ]
