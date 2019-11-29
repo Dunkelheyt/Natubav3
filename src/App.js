@@ -1,13 +1,16 @@
 import React, { Component } from "react";
 import { Route } from "react-router-dom";
+import HeaderContainer from "./components/header/HeaderContainer";
 import Main from "./Main";
 import Conocenos from "./components/social/Conocenos";
+
 import Productos from "./components/productPages/Productos";
 import ProductosChips from "./components/productPages/ProductosChips";
 import ProductosChipsPaginaDesc from "./components/productPages/ProductosChipsPaginaDesc";
 import ProductosMix from "./components/productPages/ProductosMix";
-import HeaderContainer from "./components/header/HeaderContainer";
 import ProductosMixPaginaDesc from "./components/productPages/ProductosMixPaginaDesc";
+
+import Bowls from "./components/productPages/Bowls";
 
 class App extends Component {
   render() {
@@ -30,6 +33,8 @@ class App extends Component {
           path="/productos/mix/:item_id"
           component={ProductosMixPaginaDesc}
         />
+
+        <Route exact path="/productos/bowls" component={Bowls} />
       </div>
     );
   }
