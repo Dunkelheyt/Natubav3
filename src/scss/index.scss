@@ -1,3 +1,6 @@
+//Variables
+$borderColor: #008000;
+
 @font-face {
   font-family: "BencoLeng";
   src: local("BencoLeng"),
@@ -20,8 +23,27 @@ html body {
   width: 25%;
 }
 
+.w85 {
+  width: 85%;
+}
+
+.w50 {
+  width: 50%;
+}
+
 .rightBorder {
-  border-right: 2px solid black;
+  border-right: 2px solid $borderColor;
+}
+
+.errorLetters {
+  font-size: 12px;
+  color: red;
+}
+
+.borderContact:hover {
+  border-style: solid;
+  border-width: 2px;
+  color: $borderColor;
 }
 
 .hero-image {
@@ -73,38 +95,5 @@ html body {
   .quarterImage {
     height: 50%;
     width: 50%;
-  }
-}
-
-//Animations
-
-.scale-in-hor-center {
-  -webkit-animation: scale-in-hor-center 0.9s
-    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: scale-in-hor-center 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-}
-
-@-webkit-keyframes scale-in-hor-center {
-  0% {
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
-    opacity: 1;
-  }
-}
-@keyframes scale-in-hor-center {
-  0% {
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
-    opacity: 1;
   }
 }

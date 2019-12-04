@@ -1,55 +1,103 @@
 import React from "react";
 import { Field, reduxForm } from "redux-form";
 
+const required = value => (value ? undefined : "Requerido");
+const maxLength = max => value =>
+  value && value.length > max
+    ? `Debe de ser ${max} caracteres ó menos`
+    : undefined;
+const maxLength15 = maxLength(15);
+const maxLength25 = maxLength(25);
+const email = value =>
+  value && !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(value)
+    ? "Dirección invalida de correo"
+    : undefined;
+
+const renderField = ({
+  input,
+  label,
+  type,
+  meta: { touched, error, warning }
+}) => (
+  <div className="mb-2 ">
+    <label>{label}:</label>
+    <label className="errorLetters">*</label>
+    <div className="borderContact w50">
+      <input {...input} placeholder={label} type={type} size="36" />
+      {touched &&
+        ((error && <p className="errorLetters">{error}</p>) ||
+          (warning && <p className="errorLetters">{warning}</p>))}
+    </div>
+  </div>
+);
+
+const textAreaField = ({
+  input,
+  label,
+  type,
+  meta: { touched, error, warning }
+}) => (
+  <div className="mb-2 ">
+    <label>{label}:</label>
+    <label className="errorLetters w50">*</label>
+    <div className="borderContact">
+      <textarea
+        className="image"
+        rows="4"
+        {...input}
+        placeholder={label}
+        type={type}
+      />
+      {touched &&
+        ((error && <p className="errorLetters">{error}</p>) ||
+          (warning && <p className="errorLetters">{warning}</p>))}
+    </div>
+  </div>
+);
+
 const ContactForm = props => {
-  const { pristine, reset, submitting } = props;
+  const { submitting } = props;
   return (
-    <form method="POST" action="https://formspree.io/dalmadxx@gmail.com">
-      <div>
-        <label>First Name</label>
-        <div>
-          <Field
-            name="firstName"
-            component="input"
-            type="text"
-            placeholder="First Name"
-          />
-        </div>
-      </div>
-      <div>
-        <label>Last Name</label>
-        <div>
-          <Field
-            name="lastName"
-            component="input"
-            type="text"
-            placeholder="Last Name"
-          />
-        </div>
-      </div>
-      <div>
-        <label>Email</label>
-        <div>
-          <Field
-            name="email"
-            component="input"
-            type="email"
-            placeholder="Email"
-          />
-        </div>
-      </div>
-      <div>
-        <button type="submit" disabled={pristine || submitting}>
-          Submit
+    <div className="rightBorder">
+      <h1 className="text-center">Formulario de Contacto</h1>
+      <form method="POST" action="https://formspree.io/dalmadxx@gmail.com">
+        <Field
+          name="nombre"
+          type="text"
+          component={renderField}
+          label="Nombre"
+          validate={[required, maxLength15]}
+          className="borderContact"
+        />
+        <Field
+          name="apellidos"
+          type="text"
+          component={renderField}
+          label="Apellidos"
+          validate={[required, maxLength25]}
+        />
+        <Field
+          name="email"
+          type="email"
+          component={renderField}
+          label="Correo Electronico"
+          validate={[required, email]}
+        />
+        <Field
+          name="notes"
+          type="text"
+          component={textAreaField}
+          label="Mensaje"
+          validate={[required]}
+        />
+        <button className="btn btn-dark" type="submit" disabled={submitting}>
+          Enviar
         </button>
-        <button type="button" disabled={pristine || submitting} onClick={reset}>
-          Clear Values
-        </button>
-      </div>
-    </form>
+      </form>
+    </div>
   );
 };
 
 export default reduxForm({
-  form: "simple" // a unique identifier for this form
+  form: "fieldLevelValidation" // a unique identifier for this form
 })(ContactForm);

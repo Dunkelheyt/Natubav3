@@ -45,7 +45,7 @@ class DisplayProducto extends React.Component {
               <li className="text-center">{data}</li>
             ))}
           </ul>
-          <button type="button" class="btn btn-success">
+          <button type="button" class="btn btn-dark">
             <Link to={"/ordenar"}>Ordenar</Link>
           </button>
         </div>
