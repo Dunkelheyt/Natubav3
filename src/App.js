@@ -12,6 +12,9 @@ import ProductosMixPaginaDesc from "./components/productPages/ProductosMixPagina
 
 import Bowls from "./components/productPages/Bowls";
 
+import Ordenar from "./components/order/Order";
+import Contacto from "./components/form/Contacto";
+
 class App extends Component {
   render() {
     return (
@@ -35,6 +38,9 @@ class App extends Component {
         />
 
         <Route exact path="/productos/bowls" component={Bowls} />
+
+        <Route exact path="/ordenar" component={Ordenar} />
+        <Route exact path="/contacto" component={Contacto} />
       </div>
     );
   }

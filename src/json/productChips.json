@@ -1,17 +1,17 @@
 [
   {
     "id": "1",
-    "pageId": "betabel-con-chile",
+    "pageId": "betabel-enchilado",
     "tipoProducto": "chips",
     "tipoProducto2": "enchilado",
-    "productoNombre": "Betabel con Chile",
+    "productoNombre": "Betabel Enchilado",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "desc2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "img": "https://i.imgur.com/RpJR4vA.jpg",
     "imgC": [
       "https://i.imgur.com/RpJR4vA.jpg",
-      "https://i.imgur.com/RpJR4vA.jpg",
-      "https://i.imgur.com/RpJR4vA.jpg"
+      "https://i.imgur.com/H0Tys7l.jpg",
+      "https://i.imgur.com/s2MpEXl.jpg"
     ],
     "nutriF": [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 1.",
@@ -30,7 +30,7 @@
     "img": "https://i.imgur.com/eBvkYt6.jpg",
     "imgC": [
       "https://i.imgur.com/eBvkYt6.jpg",
-      "https://i.imgur.com/eBvkYt6.jpg"
+      "https://i.imgur.com/V5BDRrs.png"
     ],
     "nutriF": [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 1.",
@@ -43,14 +43,14 @@
     "pageId": "camote-con-chile",
     "tipoProducto": "chips",
     "tipoProducto2": "enchilado",
-    "productoNombre": "Camote con Chile",
+    "productoNombre": "Camote Enchilado",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "desc2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "img": "https://i.imgur.com/qqR2r2P.jpg",
     "imgC": [
-      "https://i.imgur.com/RpJR4vA.jpg",
-      "https://i.imgur.com/RpJR4vA.jpg",
-      "https://i.imgur.com/RpJR4vA.jpg"
+      "https://i.imgur.com/qqR2r2P.jpg",
+      "https://i.imgur.com/UR3SfeR.jpg",
+      "https://i.imgur.com/MUQ4s4I.png"
     ],
     "nutriF": [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 1.",
@@ -68,9 +68,9 @@
     "desc2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "img": "https://i.imgur.com/OEcdj47.jpg",
     "imgC": [
-      "https://i.imgur.com/RpJR4vA.jpg",
-      "https://i.imgur.com/RpJR4vA.jpg",
-      "https://i.imgur.com/RpJR4vA.jpg"
+      "https://i.imgur.com/OEcdj47.jpg",
+      "https://i.imgur.com/8aIt7tx.jpg",
+      "https://i.imgur.com/bmz35WZ.png"
     ],
     "nutriF": [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 1.",
@@ -88,9 +88,10 @@
     "desc2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "img": "https://i.imgur.com/afGjiDo.jpg",
     "imgC": [
-      "https://i.imgur.com/RpJR4vA.jpg",
-      "https://i.imgur.com/RpJR4vA.jpg",
-      "https://i.imgur.com/RpJR4vA.jpg"
+      "https://i.imgur.com/afGjiDo.jpg",
+      "https://i.imgur.com/apCWZTC.jpg",
+      "https://i.imgur.com/8AC7age.jpg",
+      "https://i.imgur.com/tUC4zO4.png"
     ],
     "nutriF": [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 1.",
@@ -108,9 +109,9 @@
     "desc2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "img": "https://i.imgur.com/DjqIEdN.jpg",
     "imgC": [
-      "https://i.imgur.com/RpJR4vA.jpg",
-      "https://i.imgur.com/RpJR4vA.jpg",
-      "https://i.imgur.com/RpJR4vA.jpg"
+      "https://i.imgur.com/DjqIEdN.jpg",
+      "https://i.imgur.com/rHdtyHr.jpg",
+      "https://i.imgur.com/BIt7s02.png"
     ],
     "nutriF": [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 1.",
@@ -128,9 +129,10 @@
     "desc2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "img": "https://i.imgur.com/czcsNzj.jpg",
     "imgC": [
-      "https://i.imgur.com/RpJR4vA.jpg",
-      "https://i.imgur.com/RpJR4vA.jpg",
-      "https://i.imgur.com/RpJR4vA.jpg"
+      "https://i.imgur.com/czcsNzj.jpg",
+      "https://i.imgur.com/UlHurQp.jpg",
+      "https://i.imgur.com/lGcD2ss.jpg",
+      "https://i.imgur.com/yWMx118.png"
     ],
     "nutriF": [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 1.",
@@ -148,9 +150,9 @@
     "desc2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "img": "https://i.imgur.com/r558H1P.jpg",
     "imgC": [
-      "https://i.imgur.com/RpJR4vA.jpg",
-      "https://i.imgur.com/RpJR4vA.jpg",
-      "https://i.imgur.com/RpJR4vA.jpg"
+      "https://i.imgur.com/r558H1P.jpg",
+      "https://i.imgur.com/yqAR6xZ.jpg",
+      "https://i.imgur.com/5aoIe5B.png"
     ],
     "nutriF": [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 1.",
@@ -167,11 +169,7 @@
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "desc2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTHR1ep3Pmrm20XUwiPt5Hs_BiUGl-VmaRZn_xHKs2kn-dHBRLf",
-    "imgC": [
-      "https://i.imgur.com/RpJR4vA.jpg",
-      "https://i.imgur.com/RpJR4vA.jpg",
-      "https://i.imgur.com/RpJR4vA.jpg"
-    ],
+    "imgC": ["https://i.imgur.com/rkFooPB.png"],
     "nutriF": [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 1.",
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 2.",
@@ -189,8 +187,7 @@
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTHR1ep3Pmrm20XUwiPt5Hs_BiUGl-VmaRZn_xHKs2kn-dHBRLf",
     "imgC": [
       "https://i.imgur.com/RpJR4vA.jpg",
-      "https://i.imgur.com/RpJR4vA.jpg",
-      "https://i.imgur.com/RpJR4vA.jpg"
+      "https://i.imgur.com/nsioXn6.png"
     ],
     "nutriF": [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 1.",

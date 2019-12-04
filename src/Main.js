@@ -20,7 +20,10 @@ class Main extends Component {
               <Link to={"/productos"}>Productos</Link>
             </li>
             <li>
-              <a href="/contact">Contact</a>
+              <Link to={"/ordenar"}>Ordenar</Link>
+            </li>
+            <li>
+              <Link to={"/contacto"}>Contacto</Link>
             </li>
           </ul>
         </div>

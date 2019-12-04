@@ -20,6 +20,12 @@ class HeaderContainer extends Component {
             <Nav.Link>
               <Link to={"/productos"}>Productos</Link>
             </Nav.Link>
+            <Nav.Link>
+              <Link to={"/ordenar"}>Ordenar</Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link to={"/contacto"}>Contacto</Link>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
