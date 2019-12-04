@@ -2,9 +2,9 @@ import React from "react";
 import { Field, reduxForm } from "redux-form";
 
 const ContactForm = props => {
-  const { handleSubmit, pristine, reset, submitting } = props;
+  const { pristine, reset, submitting } = props;
   return (
-    <form onSubmit={handleSubmit}>
+    <form method="POST" action="https://formspree.io/dalmadxx@gmail.com">
       <div>
         <label>First Name</label>
         <div>
