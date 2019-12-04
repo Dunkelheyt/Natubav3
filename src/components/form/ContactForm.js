@@ -23,7 +23,13 @@ const renderField = ({
     <label>{label}:</label>
     <label className="errorLetters">*</label>
     <div className="borderContact w50">
-      <input {...input} placeholder={label} type={type} size="36" />
+      <input
+        {...input}
+        placeholder={label}
+        type={type}
+        size="35"
+        className="image hoverBorder"
+      />
       {touched &&
         ((error && <p className="errorLetters">{error}</p>) ||
           (warning && <p className="errorLetters">{warning}</p>))}
@@ -37,12 +43,12 @@ const textAreaField = ({
   type,
   meta: { touched, error, warning }
 }) => (
-  <div className="mb-2 ">
+  <div className="mb-2">
     <label>{label}:</label>
     <label className="errorLetters w50">*</label>
-    <div className="borderContact">
+    <div>
       <textarea
-        className="image"
+        className="image hoverBorder"
         rows="4"
         {...input}
         placeholder={label}

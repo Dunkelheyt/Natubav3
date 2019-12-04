@@ -12,7 +12,7 @@ class RedesSociales extends Component {
           amet, consectetur adipiscing elit.
         </p>
         <div className="row">
-          <div className="col-sm-12 col-md-6 col-lg-6">
+          <div className="col-6 col-sm-6 col-md-6 col-lg-6">
             <a href="https://www.facebook.com/Natubamx/">
               {" "}
               <img
@@ -22,7 +22,7 @@ class RedesSociales extends Component {
               />
             </a>
           </div>
-          <div className="col-sm-12 col-md-6 col-lg-6">
+          <div className="col-6 col-sm-6 col-md-6 col-lg-6">
             <a href="https://www.instagram.com/natubamx/">
               <img
                 className="image zoom"
