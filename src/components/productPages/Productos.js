@@ -50,7 +50,7 @@ class Productos extends Component {
           <Link to={"/productos/bowls"}>
             {" "}
             <img
-              className="quarterImage"
+              className="quarterImage heartbeat"
               src="https://i.imgur.com/ERHDjAN.png"
               alt="x"
             />
