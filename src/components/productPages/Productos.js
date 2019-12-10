@@ -51,7 +51,7 @@ class Productos extends Component {
             {" "}
             <img
               className="quarterImage"
-              src="https://cdn3.iconfinder.com/data/icons/design-n-code/100/272127c4-8d19-4bd3-bd22-2b75ce94ccb4-512.png"
+              src="https://i.imgur.com/ERHDjAN.png"
               alt="x"
             />
             <h1>Bowl</h1>

@@ -14,6 +14,7 @@ import Bowls from "./components/productPages/Bowls";
 
 import Ordenar from "./components/order/Order";
 import Contacto from "./components/form/Contacto";
+import Encuentranos from "./components/encuentranos/Encuentranos";
 
 class App extends Component {
   render() {
@@ -41,6 +42,7 @@ class App extends Component {
 
         <Route exact path="/ordenar" component={Ordenar} />
         <Route exact path="/contacto" component={Contacto} />
+        <Route exact path="/encuentranos" component={Encuentranos} />
       </div>
     );
   }

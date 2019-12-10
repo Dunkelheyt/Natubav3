@@ -26,6 +26,9 @@ class HeaderContainer extends Component {
             <Nav.Link>
               <Link to={"/contacto"}>Contacto</Link>
             </Nav.Link>
+            <Nav.Link>
+              <Link to={"/encuentranos"}>Encuentranos</Link>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

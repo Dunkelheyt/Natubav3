@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ContactForm from "./ContactForm";
 import RedesSociales from "./../social/RedesSociales";
+import Mapa from "./../map/MapContainer";
 
 class Contacto extends Component {
   render() {

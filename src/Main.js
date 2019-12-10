@@ -25,6 +25,9 @@ class Main extends Component {
             <li>
               <Link to={"/contacto"}>Contacto</Link>
             </li>
+            <li>
+              <Link to={"/encuentranos"}>Encuentranos</Link>
+            </li>
           </ul>
         </div>
       </div>

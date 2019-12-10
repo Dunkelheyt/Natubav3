@@ -1,5 +1,7 @@
 //Variables
 $borderColor: #008000;
+$K_WIDTH: 40;
+$K_HEIGHT: 40;
 
 @font-face {
   font-family: "BencoLeng";
@@ -29,6 +31,12 @@ html body {
 
 .w50 {
   width: 50%;
+}
+
+.greenBorder {
+  border-style: solid;
+  border-width: 2px;
+  color: $borderColor;
 }
 
 .rightBorder {
