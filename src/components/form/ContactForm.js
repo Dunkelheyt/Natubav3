@@ -10,7 +10,6 @@ export default function ContactForm() {
   }; // your form submit function which will invoke after successful validation
 
   console.log(watch("example")); // you can watch individual input by pass the name of the input
-  const mailRegex = /^(([^<>()[].,;:s@"]+(.[^<>()[].,;:s@"]+)*)|(".+"))@(([^<>()[].,;:s@"]+.)+[^<>()[].,;:s@"]{2,})$/;
   return (
     <div className="container">
       <h1 className="text-center">Formulario de Contacto</h1>
@@ -39,8 +38,7 @@ export default function ContactForm() {
             name="apellidos"
             ref={register({
               required: true,
-              maxLength: 25,
-              pattern: /^[A-Za-z]+$/i
+              maxLength: 25
             })}
           />
           {errors.nombre && (
