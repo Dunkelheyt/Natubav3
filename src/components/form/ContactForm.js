@@ -14,7 +14,10 @@ export default function ContactForm() {
   return (
     <div className="container">
       <h1 className="text-center">Formulario de Contacto</h1>
-      <form method="POST" action="itzelmilaneshernandez@gmail.com">
+      <form
+        method="POST"
+        action="https://formspree.io/itzelmilaneshernandez@gmail.com"
+      >
         <div className="form-group">
           <label>Nombre:</label>
           <input
@@ -67,12 +70,14 @@ export default function ContactForm() {
           )}
         </div>
         <div className="form-group">
-          <label for="exampleFormControlTextarea1">Example textarea</label>
+          <label for="exampleFormControlTextarea1">
+            Escribe aqui tu mensaje:
+          </label>
           <textarea
             className="form-control border border-success"
             rows="3"
             name="mensaje"
-            ref={register({ required: true, maxLength: 15 })}
+            ref={register({ required: true, maxLength: 150 })}
           />
           {errors.correo && (
             <p className="warning">Este campo es obligatorio.</p>
