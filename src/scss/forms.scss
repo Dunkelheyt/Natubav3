@@ -1,0 +1,12 @@
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.warning {
+  color: #bf1650;
+}
+
+.warning::before {
+  display: inline;
+  content: "⚠ ";
+}

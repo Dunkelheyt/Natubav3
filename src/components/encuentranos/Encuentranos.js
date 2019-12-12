@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Mapa from "./../map/MapContainer";
 
 class Encuentranos extends Component {
   render() {

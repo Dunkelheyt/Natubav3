@@ -25,10 +25,31 @@ class DisplayProducto extends React.Component {
           </Carousel>
           <div className="row">
             <div className="col-sm-12 col-md-6 col-lg-6 rightBorder">
+              <h3>Información del producto:</h3>
               <p>{info.desc}</p>
             </div>
             <div className="col-sm-12 col-md-6 col-lg-6">
+              <h3>Sabor:</h3>
               <p>{info.desc2}</p>
+            </div>
+          </div>
+          <hr />
+          <div className="row">
+            <div className="col-sm-12 col-md-6 col-lg-6 rightBorder">
+              <h3>Presentaciones del producto:</h3>
+              <ul>
+                {info.presentacionesP.map((data, index) => (
+                  <li className="text-center">{data}</li>
+                ))}
+              </ul>
+            </div>
+            <div className="col-sm-12 col-md-6 col-lg-6">
+              <h3>Información miscelania:</h3>
+              <p>
+                Producto al estilo de <strong>{info.tipoProducto}</strong> con
+                el nombre de <strong>{info.productoNombre}</strong> que cuenta
+                con una mezcla de sabores <strong>{info.tipoProducto2}</strong>.
+              </p>
             </div>
           </div>
           <hr />

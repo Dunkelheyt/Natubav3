@@ -1,7 +1,5 @@
 //Variables
 $borderColor: #008000;
-$K_WIDTH: 40;
-$K_HEIGHT: 40;
 
 @font-face {
   font-family: "BencoLeng";
@@ -13,6 +11,14 @@ $K_HEIGHT: 40;
 
 html body {
   font-family: BencoLeng;
+}
+
+hr {
+  border-top: 1px solid red;
+}
+
+strong {
+  color: $borderColor;
 }
 
 .image {
