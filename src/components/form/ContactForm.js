@@ -56,8 +56,7 @@ export default function ContactForm() {
             name="correo"
             ref={register({
               required: true,
-              maxLength: 15,
-              pattern: mailRegex
+              maxLength: 20
             })}
           />
           {errors.correo && (
